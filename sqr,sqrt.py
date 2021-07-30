@@ -5,8 +5,9 @@ while s>1:
     sqr="square"
     sqt="square root"
     print("please type which operation you want to perform. square or square root?")
-		
-	    
+    if opr!=(sqr,sqrt):
+             print("error")	
+        
     opr=str(input())
 		
     if opr==sqr:
