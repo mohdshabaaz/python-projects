@@ -14,16 +14,16 @@ while s>1:
 	     print("Type the number ")
 	     num=int(input())
 	     num1=num*num
-	     print(num1)
+	     print('square of %f is %f'%(num,num1)
  
 	   except:
 	     print("error! please type number.")
      elif opr==sqt:
 	    try:
 	       print("Type the number ")
-	       num=int(input(""))
-	       num1=sqrt(num)
-	       print(num1)
+	       num2=int(input(""))
+	       num3=sqrt(num2)
+	       print("square root of %d is %d"%(num2,num3)
 	     except:
 	       print("error")
   except:
