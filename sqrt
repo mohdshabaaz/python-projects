@@ -1,5 +1,10 @@
-from math import *
-print("Type the number which you want square root of .")
-num=int(input(""))
-num1=sqrt(num)
-print(num1)
+s=10
+while s>1:
+	try:
+	  from math import*
+	  print("Type the number which you eant square root of")
+	  num=int(input(""))
+	  num1=sqrt(num)
+	  print(num1)
+	except:
+	  print("error! please check the input.")
